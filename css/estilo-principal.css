@@ -3,7 +3,7 @@
 /*Estilizado para todos los headers de la página*/
 header {
 
-    background-color: rgb(206, 92, 110);
+    background-color: rgb(17, 99, 35);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
@@ -20,7 +20,7 @@ h1 {
 /*Estilizado para todos los titulos (h2) de la página*/
 h2 {
     color: white;
-    background-color: rgb(195, 123, 134);
+    background-color: rgb(69, 84, 8);
     text-align: center;
 }
 

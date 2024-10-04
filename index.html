@@ -12,22 +12,22 @@
 
     <link href="../css/estilo-principal.css" rel="stylesheet"><!--Referencia articulo css-->
     <link href="../bootstrap-5.3.3-dist/css/bootstrap.min.css"><!--Referencia bootstrap-->
-    <title>UsabilidadWeb</title> <!--Titulo a mostrar en la pestaña del navegador-->
+    <title>Diseño Web Centrado en el Usuario (DCU)</title> <!--Titulo a mostrar en la pestaña del navegador-->
 </head>
 
 <body> <!--Etiqueta body (contenido principal de la página = lo que es visible para el usuario)-->
 
     <header> <!--Etiqueta header = encabezado de la página-->
-        <h1>Usabilidad web</h1>
-        
+        <h1>Diseño Web Centrado en el Usuario</h1>
+
     </header>
 
     <nav> <!--Eriqueta nav = navegación dentro de la página web-->
         <ul> <!--Lista no ordenada-->
-            <li><a href="#queEs">¿Qué es usabilidad web?</a></li>
+            <li><a href="#queEs">¿Qué es diseño web centrado en el usuario (DCU)?</a></li>
             <!--Etiqueta li = list item; etiqueta a = link/hipervinculo-->
             <li><a href="#importancia">Importancia</a></li>
-            <li><a href="#principios">Principios</a></li>
+            <li><a href="#pasos">Principios</a></li>
             <li><a href=#ejemplos>Ejemplos</a></li>
         </ul>
 
@@ -40,19 +40,21 @@
 
             <article> <!--Etiqueta article donde se trata el segmento como independiente-->
 
-                <h2>¿Qué es la usabilidad web?</h2> <!--Etiqueta h2 para un titulo más pequeño que el del header-->
+                <h2>¿Qué es diseño web centrado en el usuario (DCU)?</h2>
+                <!--Etiqueta h2 para un titulo más pequeño que el del header-->
                 <p>
-                    <i>Se conoce como <b>Usabilidad Web</b> a la facilidad que provee una
-                        página web en su uso. Tanto la ejecución técnica como la facilidad
-                        en el uso se encuentran estrechamente ligados con la apariencia y el diseño
-                        del sitio web.</i>
+                    <i>Se conoce como <b>Diseño Web Centrado en el usuario (DCU)</b> a una metodología
+                        de diseño de una página web enfocada en el usuario. Se prevee cómo va a ser la
+                        experiencia del usuario en cada etapa del diseño. Esto incluye tanto la conceptualización
+                        como la implementación (materialización).
+                    </i>
                 </p>
                 <figure>
-                    <img class="center" src="../img/usabilidad-en-el-diseno-web.png" width="275"
-                        alt="Imagen representativa de usabilidad Web" />
-                    <figcaption class="center">Figura 1. Representación de usabilidad web.
+                    <img class="center" src="./img/dcu-Representacion.png" width="275"
+                        alt="Imagen representativa de DCU" />
+                    <figcaption class="center">Figura 1. Imagen representativa de DCU.
                         Fuente: <a
-                            href="https://tecnosoluciones.com/usabilidad-en-el-diseno-web/">tecnosoluciones.com</a>
+                            href="https://www.pngwing.com/es/search?q=dise%C3%B1o+centrado+en+el+usuario">PNGWing.com</a>
                     </figcaption>
                 </figure>
             </article>
@@ -61,23 +63,30 @@
         <section id="importancia">
 
             <article>
-                <h2>Importancia de la usabilidad web</h2>
+                <h2>Importancia del DCU</h2>
                 <p>
-                    <i>Al centrarse en otorgar facilidad en el uso de una página, la importancia
-                        de la usabilidad web radica en que esta ayuda a que los usuarios puedan utilizar
-                        la página web ´varias veces´ sin complicaciones. Esto ayuda a generar un tráfico
-                        más elevado hacia la página, lo cual beneficia el mercadeo del sitio así como su
-                        posicionamiento en los buscadores de Internet.
+                    <i>
+                        Debido a que el enfoque del DCU se centra en la experiencia del usuario al consumir el sitio web
+                        que estamos diseñando, durante la etapa de diseño podemos entender qué está funcionando bien,
+                        qué no
+                        y por qué. El usuario final se vuelve un aliado productivo en la creación del sitio web y nos
+                        sirve como
+                        alerta para entender qué podemos mejorar o qué valor agregado puede tener al final nuestro sitio
+                        web para
+                        agradar y facilitar el uso al público general. Un DCU bien estructurado ayuda a prevenir fallas
+                        de diseño y rechazo
+                        al involucrar usuarios de prueba y generacionales que activamente van a proveer
+                        retroalimentación temprana.
                     </i>
                 </p>
 
                 <figure>
-                    <iframe class="center" src="https://www.youtube.com/embed/2P5dqEVZrWw" width="400" height="300"
+                    <iframe class="center" src="https://www.youtube.com/embed/26kGiR4ncto" width="400" height="300"
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
                     encrypted-media;gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <figcaption class="center">Video1. ¿Qué es la usabilidad web?.
-                        Fuente:<a href="https://www.youtube.com/watch?v=2P5dqEVZrWw"><i>"El blog de Raffo"</i></a>
+                    <figcaption class="center">Video1. Diseño centrado en el usuario en 1 minuto.
+                        Fuente:<a href="https://www.youtube.com/watch?v=26kGiR4ncto"><i>"Nexup"</i></a>
                     </figcaption>
                 </figure>
 
@@ -85,68 +94,72 @@
 
         </section>
 
-        <section id="principios">
+        <section id="pasos">
 
             <article>
-                <h2>Principios</h2>
+                <h2>Pasos o etapas del DCU</h2>
 
                 <!--Etiqueta table (estilizada con bootstrap)-->
                 <!--table class="table table-striped"-->
                 <table>
-                    <caption><b>Principios de usabilidad web</b></caption>
+                    <caption><b>DCU paso a paso</b></caption>
 
                     <!--Etiqueta tr para cada fila de la tabla-->
                     <tr>
-                        <th><b>Principio</b></th>
+                        <th><b>Paso</b></th>
                         <th><b>Definición</b></th>
                     </tr>
 
                     <!--Etiqueta tr para cada fila de la tabla-->
                     <tr>
-                        <td><i>Disponibilidad</i></td>
-                        <td>Esto significa qué tan fácil un sitio web se puede
-                            acceder. La establidad de la infraestructura que provee
-                            el sitio web en Internet puede afectar la disponibilidad.
+                        <td><i>Investigación</i></td>
+                        <td>
+                            Se analiza el tipo de usuario que va a hacer uso del sitio web: sus
+                            características. Debe haber un entendimiento del entorno social y las
+                            tareas que realiza el usuario en su día a día.
                         </td>
                     </tr>
 
                     <!--Etiqueta tr para cada fila de la tabla-->
                     <tr>
-                        <td><i>Claridad</i></td>
-                        <td>Esto representa qué tan alineado está el sitio web con
-                            el servicio que ofrece. En otras palabras, los usuarios
-                            esperan que el sitio se alinee a sus objetivos. Por ejemplo:
-                            un usuario espera que un sitio cuyo objetivo sea la compra de
-                            equipo de ferretería le permita realizar la compra de forma sencilla
-                            y efectiva.
-
+                        <td><i>Concepto</i></td>
+                        <td>
+                            Se realiza un estudio de factibilidad de las soluciones que se
+                            implementarán en el sitio web y se verifican (prueban) si estas se
+                            adaptan a los usuarios objetivo. Además, se determina si financieramente
+                            son viables.
                         </td>
                     </tr>
 
                     <!--Etiqueta tr para cada fila de la tabla-->
                     <tr>
-                        <td><i>Reconocimiento</i></td>
-                        <td>Los usuarios tomarán unos segundos para poder obtener una imagen visual
-                            del sitio web y tratarán de asimilarlo con otros sitios web que
-                            proveen ese servicio. Aquí la facilidad de uso y la apariencia del sitio
-                            son determinantes.
+                        <td><i>Diseño</i></td>
+                        <td>
+                            Comprende desde un concepto aproximado al diseño completo del sitio web. Este
+                            abarca un proceso de aprendizaje donde se identifican oportunidades, nuevas ideas surgen
+                            y mediante prueba y error se perfeccionan las soluciones.
                         </td>
                     </tr>
 
                     <!--Etiqueta tr para cada fila de la tabla-->
                     <tr>
-                        <td><i>Credibilidad</i></td>
-                        <td>Si el sitio web no tiene un objetivo o un propósito específico, los usuarios
-                            no van a confiar en él. Esto afectará negativamente la confiabilidad en este.
+                        <td><i>Evaluación</i></td>
+                        <td>
+                            Este paso es crucial ya que se obtiene la retroalimentación en tiempo real de una muestra
+                            de los usuarios que conformarán el grupo de usuarios finales. Este proceso se encuentra
+                            ligado
+                            con las pruebas de calidad del software, que aunque parecida, no es exactamente lo mismo.
                         </td>
                     </tr>
 
                     <!--Etiqueta tr para cada fila de la tabla-->
                     <tr>
-                        <td><i>Relevancia</i></td>
-                        <td>Aquí entra en juego el público objetivo, ya que las personas
-                            se sentirán más atraídas a consumir servicios que se adapten
-                            a sus necesidades.
+                        <td><i>Lanzamiento</i></td>
+                        <td>
+                            Luego de que el sitio web se encuentre activo, se debe realizar un seguimiento activo
+                            para comprobar si el resultado final es el deseado para el usuario. Aquí, la evaluación
+                            de variables cualitativas junto con el desempeño del sitio web se tornan la rutina
+                            post-lanzamiento.
                         </td>
                     </tr>
 
@@ -155,9 +168,50 @@
 
         </section>
 
-        <section id="ejemplos">
+        <section id="beneficios">
             <article>
-                <h2>Ejemplos</h2>
+                <h2>Beneficios</h2>
+                <ol>
+                    <li>
+                        <h3><b>Para el usuario</b></h3>
+                    </li>
+                    <ul>
+
+                        <li><b>Mejora de la usabilidad:</b>
+                            El sitio web que sigue los principios de DCU
+                            ayuda a evitar errores no deseados por parte
+                            del usuario.
+                        </li>
+
+                        <li><b>Experiencia positiva: </b>
+                            El sitio al cumplir su objetivo de satisfacer una necesidad
+                            del usuario final provee resultados satisfactorios.
+                        </li>
+
+                        <li><b>Aumento de eficiencia: </b>
+                            Un diseño bien implementado mejora la eficiencia en su uso. La productividad
+                            también es afectada positivamente.
+                        </li>
+
+                        <li><b>Mejora de accesibilidad: </b>
+                            Un sitio web que sigue los principios de DCU cumple el requisito de
+                            accesibilidad por naturaleza.
+                        </li>
+
+                    </ul>
+
+
+                    <li>
+                        <h3><b>Para la empresa</b></h3>
+                    </li>
+                </ol>
+
+            </article>
+        </section>
+
+        <section id="beneficios">
+            <article>
+                <h2>Beneficios</h2>
                 <li><b><i>Disponibilidad: </i></b>IBM es
                     uno de los proveedores de 'hosteo' de servicios web
                     más conocidos, y provee el servicio 'IBM® HTTP Server for i'.
